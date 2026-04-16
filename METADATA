@@ -5,11 +5,12 @@
 name: "spdx-tools"
 description: "tools-golang is a collection of Go packages intended to make it easier for Go programs to work with SPDX files."
 third_party {
-  url {
-    type: GIT
+  identifier {
+    type: "Git"
     value: "https://github.com/spdx/tools-golang.git"
+    version: "843bc985256a3a3ae317bc5b11b9fbdc8b6aadd7"
+    closest_version: "v0.4.0"
   }
-  version: "v0.4.0"
   license_type: NOTICE
   last_upgrade_date {
     year: 2023
