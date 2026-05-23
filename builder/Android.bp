@@ -34,5 +34,8 @@ bootstrap_go_package {
         "spdx-tools-spdxv2_2",
         "spdx-tools-spdxv2_3",
     ],
+    testData: [
+        "../testdata/**/*",
+    ],
     testSrcs: ["build_test.go"],
 }
